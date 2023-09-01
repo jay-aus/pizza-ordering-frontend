@@ -1,0 +1,50 @@
+/* Update OrderForm.css for consistent alignment */
+.order-form {
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    max-width: 400px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+  }
+  
+  .form-field {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .form-label {
+    width: 150px; /* Adjust the width as needed */
+    text-align: left;
+    margin-right: 10px;
+  }
+  
+  .select-wrapper {
+    flex: 1;
+  }
+  
+  select,
+  input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .error-box {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  .submit-button {
+    margin-top: 20px;
+  }
+
+.info-message {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #888;
+  }
+  
